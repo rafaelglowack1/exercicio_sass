@@ -1,3 +1,6 @@
+@use 'variaveis';
+
+
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +23,7 @@ li {
 }
 
 header {
-    background-color: #182C61;
+    background-color: variaveis.$corSecundaria;
     position: sticky;
     top: 0;
     left: 0;
@@ -61,7 +64,7 @@ section {
     }
     .product-button {
         display: block;
-        background-color: #44bd32;
+        background-color: variaveis.$corPrincipal;
         color: #fff;
         text-align: center;
         padding: 8px 0;
@@ -70,7 +73,7 @@ section {
         text-decoration: none;
 
         &:hover {
-            background-color: #4cd137;
+            background-color: variaveis.$corPrincipal;
         }
     }
 }
@@ -79,7 +82,7 @@ section {
 
 
 .product-button:hover {
-    background-color: #4cd137;
+    background-color: variaveis.$corPrincipal;
 }
 
 @media screen and (max-width: 1023px) {
