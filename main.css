@@ -71,11 +71,11 @@ section {
   text-decoration: none;
 }
 .products .product-button:hover {
-  background-color: #4cd137;
+  background-color: #44bd32;
 }
 
 .product-button:hover {
-  background-color: #4cd137;
+  background-color: #44bd32;
 }
 
 @media screen and (max-width: 1023px) {
@@ -95,5 +95,3 @@ section {
     margin-bottom: 32px;
   }
 }
-
-/*# sourceMappingURL=main.css.map */
